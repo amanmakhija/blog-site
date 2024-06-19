@@ -1,0 +1,44 @@
+.blog-main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    margin-bottom: 20px;
+}
+
+.blog-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-banner {
+    margin-top: 20px;
+    height: 40vh;
+    width: 70vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.back-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 15vh;
+    left: 5vw;
+}

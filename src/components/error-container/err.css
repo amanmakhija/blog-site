@@ -1,0 +1,43 @@
+.errors-container {
+    overflow-y: auto;
+    position: fixed;
+    height: 80vh;
+    width: 23vw;
+    right: 0;
+    top: 16%;
+    background-color: transparent;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.error {
+    position: relative;
+    width: 20vw;
+    color: red;
+    text-align: center;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dissapear {
+    display: none;
+}
+
+.errorClose {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.errorMessage {
+    font-size: 1rem;
+    color: red;
+}

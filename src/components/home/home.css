@@ -1,0 +1,78 @@
+.home {
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.home h1 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-container {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog {
+    cursor: pointer;
+    background-color: #fff;
+    height: 40vh;
+    width: 20vw;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20vh;
+    width: 20vw;
+}
+
+.blog {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40vh;
+    width: 20vw;
+}
+
+marquee {
+    background-color: rgba(255, 255, 0, 0.671);
+    position: fixed;
+    top: 11%;
+    left: 0;
+    width: 100vw;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+marquee span {
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 200;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+}

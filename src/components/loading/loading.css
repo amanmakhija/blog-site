@@ -1,0 +1,9 @@
+.skeleton {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+}

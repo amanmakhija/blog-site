@@ -1,0 +1,106 @@
+.time {
+    position: fixed;
+    top: 15vh;
+    left: 5vw;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.blog-post-form {
+    width: 80vw;
+    margin: 300px auto 10px auto;
+}
+
+.blog-post-form h1 {
+    margin: 30px 0;
+    color: white;
+}
+
+.blog-post-form form {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.blog-post-form input[type="text"],
+textarea,
+select {
+    width: 60vw;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .blog-post-form {
+        padding: 1rem;
+    }
+
+    nav li {
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-post-form {
+        padding: 0.5rem;
+    }
+
+    nav li {
+        margin: 0 0.25rem;
+    }
+
+    input[type="text"],
+    textarea,
+    select {
+        font-size: 0.9rem;
+    }
+
+    .submit-btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
